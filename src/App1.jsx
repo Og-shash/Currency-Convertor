@@ -99,8 +99,15 @@ function App() {
                         </select>
                     </div>
                 </div>
-                <button onClick={swap} className=" absolute right-60 bottom-52 text-3xl font-bold bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200">SWAP
-                </button>
+                <button
+  onClick={swap}
+  className="absolute text-xl sm:text-2xl md:text-3xl font-bold bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-200 
+             bottom-16 sm:bottom-20 md:bottom-24 
+             right-10 sm:right-16 md:right-20 lg:right-40"
+>
+  SWAP
+</button>
+
                 <div className="bg-white p-3 text-xl rounded-lg my-2">
                     <div>
                         <label htmlFor="toAmount">To</label>
